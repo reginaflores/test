@@ -1,0 +1,49 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    border: 10px solid black;
+    height: 90vh; /*vh is viewport height aka visible screen */
+   
+    /* cross axuis is y axis and align-items is used*/
+    /* align-items: center; */
+
+    /* main axis is along x and this spaces
+    boxes along the x axis evenly. note defauls is flex-start */
+    justify-content: space-evenly;
+    /* justify-content: flex-end; */
+
+    /* flex-wrap: wrap;
+    align-content: flex-start; */
+    /*em is a unit of measurement which indicates size relative to the size of the font.*/
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    font-size: 8em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box img{
+    width: 150px;
+    height: 150px;
+}
+
+#box1{
+    background-color: red;
+}
+
+#box2{
+    background-color: yellow;
+}
+
+#box3{
+    background-color: green;
+}
+
+#box4{
+    background-color: blue;
+}
